@@ -193,8 +193,8 @@ public class MainActivity extends AppCompatActivity {
                             .append("\n");
 //                    currentPosition.append("当前IP地址："+ NetworkUtils.getIPAddress(true))
 //                            .append("\n");
-                    currentPosition.append("当前海拔高度:").append(bdLocation.getAltitude() + "米")
-                            .append("\n");
+//                    currentPosition.append("当前海拔高度:").append(bdLocation.getAltitude() + "米")
+//                            .append("\n");
                     currentPosition.append("定位方式:");
                     if (bdLocation.getLocType() == BDLocation.TypeGpsLocation) {
                         currentPosition.append("GPS");
